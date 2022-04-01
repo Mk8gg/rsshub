@@ -793,6 +793,9 @@
     "/hkjunkcall/": [
         "nczitzk"
     ],
+    "/hnrb/:id?": [
+        "nczitzk"
+    ],
     "/hongkong/dh/:language?": [
         "nczitzk"
     ],
@@ -1284,6 +1287,9 @@
     ],
     "/nowcoder/schedule/:propertyId?/:typeId?": [
         "junfengP"
+    ],
+    "/npm/package/:name": [
+        "Fatpandac"
     ],
     "/nsfc/news/:type?": [
         "Derekmini"
