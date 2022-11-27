@@ -14,6 +14,12 @@ pageClass: routes
 
 <Route author="emdoe" example="/benedictevans" path="/benedictevans"/>
 
+## CSDN
+
+### 用户博客
+
+<Route author="Jkker" example="/csdn/blog/csdngeeknews" path="/csdn/blog/:user" radar="1" :paramsDesc="['`user` 为 CSDN 用户名，可以在主页 url 中找到']" />
+
 ## Google Sites
 
 ### 文章更新
@@ -116,6 +122,12 @@ username 为博主用户名，而非`xxx.hashnode.dev`中`xxx`所代表的 blog 
 ### 文章
 
 <Route author="CitrusIce" example="/phrack" path="/phrack" />
+
+## Polkadot
+
+### 博客
+
+<Route author="iceqing" example="/polkadot/blog" path="/polkadot/blog"/>
 
 ## PolkaWorld
 
@@ -278,6 +290,18 @@ username 为博主用户名，而非`xxx.hashnode.dev`中`xxx`所代表的 blog 
 
 <Route author="a180285" example="/blogs/jingwei.link" path="/blogs/jingwei.link"/>
 
+## 零博客
+
+### 分类
+
+<Route author="nczitzk" example="/agora0/initium" path="/agora0/:category?" :paramsDesc="['分类，见下表，默认为 initium，即端传媒']">
+
+| muitinⒾ | aidemnⒾ | srettaⓂ | qⓅ | sucoⓋ |
+| ------- | ------- | ------- | -- | ----- |
+| initium | inmedia | matters | pq | vocus |
+
+</Route>
+
 ## 每日安全
 
 ### 推送
@@ -307,6 +331,12 @@ username 为博主用户名，而非`xxx.hashnode.dev`中`xxx`所代表的 blog 
 ### 文章
 
 <Route author="junbaor SkiTiSu" example="/blogs/wangyin" path="/blogs/wangyin"/>
+
+## 优步
+
+### 工程技术
+
+<Route author="hulb" example="/uber/blog" path="/uber/blog/:maxPage?" :paramsDesc="['获取的最多页数，默认最多获取第一页']" />
 
 ## 雨苁博客
 
